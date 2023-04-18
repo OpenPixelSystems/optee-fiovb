@@ -13,7 +13,7 @@
 #define PERSIST_VALUE_LIST {"bootcount", "upgrade_available", "rollback", \
 			    "m4hash", "m4size", "m4_update", "bootupgrade_available", \
 			    "bootupgrade_primary_updated", BOOTFIRM_VER, \
-			    "is_secondary_boot", "debug", ROLLBACK_PROT}
+			    "is_secondary_boot", "hsm_so_pin", "debug", ROLLBACK_PROT}
 
 /*
  * Reads a persistent value corresponding to the given name.
